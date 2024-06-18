@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useQuery } from "@tanstack/react-query";
 import { queryPosts } from "@/api/queryPosts";
 import { queryUsers } from "@/api/queryUsers";
-import { postArraySchema } from "@/app/schema/postSchema";
-import { userArraySchema } from "@/app/schema/userSchema";
+import { postArraySchema } from "@/schema/postSchema";
+import { userArraySchema } from "@/schema/userSchema";
 import { ArrowUpRight } from "lucide-react";
 
 export const Posts = () => {
