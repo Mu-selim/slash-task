@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **./Slash Frontend Task**
 
-## Getting Started
+In this task I have created a simple web application using Next.js and Tailwind CSS. The application is a simple blog where you can view all the posts and view a single post in detail.
 
-First, run the development server:
+## **Contents**
+
+- [requirements](#requirements)
+- [Installation and Setup](#installation-and-setup)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Video Demo](#video-demo)
+- [Author](#author)
+
+### **Requirements**
+
+- Node.js v18.x or higher installed on your local machine.
+- npm, pnpm or yarn package manager.
+- Git installed on your local machine.
+- A browser to view the application.
+
+### **Installation and Setup**
+
+1. Clone the repository to your local machine using the command below:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Mu-selim/slash-task.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Change directory to the project directory using the command below:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd slash-task
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install the project dependencies using the command below:
 
-## Learn More
+```bash
+pnpm install
+```
+or
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the development server using the command below:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-## Deploy on Vercel
+6. To build the application for production, run the command below:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+pnpm build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+7. To start the production server, run the command below:
+
+```bash
+pnpm start
+```
+
+### **Features**
+
+- View all posts.
+- View a single post in detail.
+- View the author of a post.
+- View the comments of a post.
+- View the author details for a single post.
+
+### **Technologies Used**
+
+- Next.js v14
+- React v18
+- Tailwind CSS v3
+- TypeScript v5
+- Tankstack query v5
+- zod
+- react-hook-form
+- lucid-icons
+- react-hot-toast
+
+### **Deployment**
+
+The application is deployed on Vercel and can be accessed using the link below: [Slash Task](https://slash-task.vercel.app/)
+
+### **Video Demo**
+
+A video demo of the application can be viewed using the link below: [Slash Task Video Demo](https://drive.google.com/file/d/1)
+
+### **Author**
+
+- Muhammad Selim
+- [muhamadselim70@gmail.com](mailto:muhamadselim70@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/selimjs/)
