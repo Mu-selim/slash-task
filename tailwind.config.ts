@@ -21,6 +21,7 @@ const config: Config = {
       },
       fontFamily: {
         inter: ["var(--font-inter)", "Inter", "sans-serif"],
+        niconne: ["var(--font-niconne)", "Niconne", "cursive"],
       },
     },
   },
